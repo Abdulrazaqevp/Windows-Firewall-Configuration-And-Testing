@@ -1,0 +1,10 @@
+Command used in this project.This command can only run in windows command prompt as administrator only
+
+1.Enable Telnet Client:
+
+dism /online /Enable-Feature /FeatureName:TelnetClient
+
+
+2.For try connecting:
+
+telnet <your IP> 23
